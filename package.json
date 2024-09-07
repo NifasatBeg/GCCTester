@@ -1,0 +1,23 @@
+{
+  "name": "gcc",
+  "version": "1.0.0",
+  "description": "test my code with google coding competion archived tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "cheerio": "^1.0.0-rc.12",
+    "child_process": "^1.0.2",
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}
