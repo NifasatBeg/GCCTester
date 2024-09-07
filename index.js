@@ -12,12 +12,9 @@ const KICKSTART_ROUND = "round_a";
 const KICKSTART_QNAME = "rational_number_tree";
 const KICKSTART_TESTFOLDER = "data/secret";
 
-const testFilePath =
-  "/Users/nifasat/iCloud Drive (Archive)/Documents/coding pgs/input.txt";
-const codeFilePath =
-  "/Users/nifasat/iCloud Drive (Archive)/Documents/coding pgs/code.cpp";
-const outputFilePath =
-  "/Users/nifasat/iCloud Drive (Archive)/Documents/coding pgs/output.txt"
+const testFilePath = process.env.CODE_INPUT_FILE_PATH;
+const codeFilePath = process.env.CODE_FILE_PATH;
+const outputFilePath = process.env.CODE_OUTPUT_FILE_PATH;
 
 const RESET = '\x1b[0m';
 const RED = '\x1b[31m';
